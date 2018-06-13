@@ -1,0 +1,75 @@
+html, body {
+  height: 100%; 
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  margin: 0em;
+  padding: 0em;
+} 
+
+h1 {
+  padding: 1em;
+  padding: 1em 0em 0.5em 0em;
+  font-size: 3em;
+  margin: 0em;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 2em;
+  padding-top: 0px;
+  margin: 0em;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 3em;
+  padding: 0.5em;
+  margin: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 1em;
+  border: 2px solid black;
+}
+
+#moodBG, #noteBG, #achievementBG, #goalBG, #menuBG{
+  height: 100%;
+}
+
+#menuBG {
+  background-color: #F2FBD0;
+}
+
+
+#moodButton, #moodBG {
+  background-color: salmon;
+}
+
+#noteButton, #noteBG {
+  background-color: lightgreen;
+}
+
+#achievementButton, #achievementBG {
+  background-color: turquoise;
+}
+
+#goalButton, #goalBG {
+  background-color: #F8B9F7;
+}
+
+#menuBar {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 0.1em;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.textbox {
+  height: 3em;
+}
+

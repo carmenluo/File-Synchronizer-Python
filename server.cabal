@@ -1,0 +1,36 @@
+name:                server
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/christopheranand/resilient-mcmaster
+license:             BSD3
+license-file:        LICENSE
+author:              Christopher Anand, Carmen Luo, Matthew d'Cruz, Noura Nimri, Diana Saweris, Poly Yao
+maintainer:          anandc@mcmaster.ca
+copyright:           2018 Christopher Anand
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=2.0
+
+executable resilient-server
+  hs-source-dirs:      Server
+  main-is:             ResilientServer.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N -main-is ResilientServer.main
+  build-depends:       async >= 2.1 && < 3
+                     , base >= 4.7 && < 5
+                     , containers >= 0.5.7 && < 1
+                     , http-types >= 0.9 && < 1
+                     , random >= 1.1 && < 2
+                     , stm >= 2.4 && < 3
+                     , text >= 1.2 && < 2
+                     , time >= 1.6 && < 2
+                     , wai >= 3.2 && < 4
+                     , wai-websockets >= 3.0 && < 4
+                     , warp >= 3.2 && < 4
+                     , websockets >= 0.10 && < 1
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/christopheranand/resilient-mcmaster

@@ -1,0 +1,104 @@
+html, body, #main {
+  height : 100%
+}
+
+#monthYearContainer {
+  text-align : center;
+  align-items : center;
+  display : flex;
+  flex-grow : 0;
+  background-color : #fbfe9e;
+  padding : 0.5em;
+  border-top: solid 2px #84b678;
+}
+
+#calendar {
+  display : flex;
+  width : 100%;
+  text-align : center;
+  background-color : #84b678;
+  flex-grow : 1;
+  flex-direction : column
+}
+
+#menuContainer {
+  position : relative;
+  display : flex;
+  width : 100%;
+  flex-grow : 0;
+}
+
+#calendarContainer {
+  display : flex;
+  flex-direction : column;
+  height : 100%;
+}
+
+#selectedMonthYear {
+  font-weight : bold;
+  font-size : 2.5em;
+  flex-grow : 2;
+  width : 5em;
+}
+
+#calNext, #calPrev {
+  font-size : 3.0em;
+  cursor : pointer;
+  flex-grow : 1;
+  color : black;
+  font-weight: bold;
+}
+
+#calendar tr th, #calendar tr td {
+  background-color : #ffff9f;
+  font-size : 1.5em;
+  flex-grow : 1;
+  width : 0em;
+  margin : 1px;
+}
+
+#calendar tr th {
+  background-color : #dfff97;
+}
+
+#calendar tr {
+  display : flex;
+  flex-grow : 20;
+}
+
+#calendar #weekRow {
+  flex-grow : 1;
+  font-size: 1.1em;
+}
+
+
+#menuButton1, #menuButton2, #menuButton3, #menuButton4, #menuButton5 {
+  flex-grow : 1;
+  text-align : center;
+  justify-content : center;
+  padding : 0em;
+  cursor : pointer;
+  font-size : 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#menuButton1 {
+  background-color : red;
+}
+
+#menuButton2 {
+  background-color : lightgreen;
+}
+
+#menuButton3 {
+  background-color : lightblue;
+}
+
+#menuButton4 {
+  background-color : pink;
+}
+
+#menuButton5 {
+  background-color : lightgreen;
+}
